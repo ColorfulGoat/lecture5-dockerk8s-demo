@@ -46,6 +46,7 @@ GitHub fork link: https://github.com/ColorfulGoat/lecture5-dockerk8s-demo
 
 ## Exercise 3, c)
 ![Screenshot](images/Screenshot%202026-03-24%20221506.png)
+>The self-healing capabilities help maintain health and availability of workloads. It automatically replaces failed containers, reschedules workloads when nodes become unavailable, and ensures that the desired state of the system is maintained.
 
 
 # END
