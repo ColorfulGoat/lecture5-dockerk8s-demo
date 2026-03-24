@@ -5,6 +5,7 @@ GitHub fork link: https://github.com/ColorfulGoat/lecture5-dockerk8s-demo
 # Solutions
 
 ## Exercise 1, a)
+
 ![Exercise 1, a)](images/Screenshot%202026-03-24%20204955.png)
 ![Exercise 1, a)](images/Screenshot%202026-03-24%20204908.png)
 
@@ -14,9 +15,21 @@ GitHub fork link: https://github.com/ColorfulGoat/lecture5-dockerk8s-demo
 >    pip install --no-cache-dir -r requirements.txt
 
 ### The difference between the two images is quite noticable. This is because alpine needs the extra tools to run.
+
 ![Screenshot](images/Screenshot%202026-03-24%20210303.png)
 
+## Exercise 2, a)
+>docker build -t task-app:v1.0 .
+>docker login
+>docker tag task-app:v1.0 jaygoat/task-app:v1.0
+>docker push jaygoat/task-app:v1.0
 
+![Screenshot](images/Screenshot%202026-03-24%20211615.png)
+
+## Exercise 2, b)
+>docker compose logs web — shows all stdout/stderr logs from the web container
+>docker inspect lecture5-web — returns a detailed JSON file with the container's full configuration
+>docker stats — shows resource usage for all running containers
 
 
 
