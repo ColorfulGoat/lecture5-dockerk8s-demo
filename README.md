@@ -2,7 +2,7 @@
 
 GitHub fork link: https://github.com/ColorfulGoat/lecture5-dockerk8s-demo
 
-![Screenshot](images/2026-03-24 204955.png)
+![Screenshot](images/Screenshot 2026-03-24 204955.png)
 
 
 
