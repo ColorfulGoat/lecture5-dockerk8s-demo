@@ -13,6 +13,15 @@ GitHub fork link: https://github.com/ColorfulGoat/lecture5-dockerk8s-demo
 >RUN apk add --no-cache gcc musl-dev libpq-dev && \
 >    pip install --no-cache-dir -r requirements.txt
 
+### The difference between the two images is quite noticable. This is because alpine needs the extra tools to run.
+![Exercise 1, a)](images/Screenshot&220026-03-24&202010303.png)
+
+
+
+
+
+
+
 > DevOps for Cyber-Physical Systems | University of Bern
 
 A Task Manager app demonstrating Docker containerization and Kubernetes orchestration.
