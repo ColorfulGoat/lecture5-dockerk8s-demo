@@ -1,4 +1,5 @@
 # Lecture 5: Docker & Kubernetes Demo
+I hope I included everything :)
 
 GitHub fork link: https://github.com/ColorfulGoat/lecture5-dockerk8s-demo
 
