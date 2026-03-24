@@ -20,8 +20,11 @@ GitHub fork link: https://github.com/ColorfulGoat/lecture5-dockerk8s-demo
 
 ## Exercise 2, a)
 >docker build -t task-app:v1.0 .
+
 >docker login
+
 >docker tag task-app:v1.0 jaygoat/task-app:v1.0
+
 >docker push jaygoat/task-app:v1.0
 
 ![Screenshot](images/Screenshot%202026-03-24%20211615.png)
