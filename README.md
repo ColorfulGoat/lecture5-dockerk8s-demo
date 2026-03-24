@@ -1,10 +1,17 @@
 # Lecture 5: Docker & Kubernetes Demo
 
+GitHub fork link: https://github.com/ColorfulGoat/lecture5-dockerk8s-demo
+
+![Screenshot](images/2026-03-24 204955.png)
+
+
+
+
+
+
 > DevOps for Cyber-Physical Systems | University of Bern
 
 A Task Manager app demonstrating Docker containerization and Kubernetes orchestration.
-
-https://github.com/ColorfulGoat/lecture5-dockerk8s-demo
 
 ## Architecture
 
