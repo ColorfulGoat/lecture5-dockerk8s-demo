@@ -1,5 +1,6 @@
 # Lecture 5: Docker & Kubernetes Demo
 I hope I included everything :)
+The images are only viewable if you opem the Read.me in the my github.
 
 GitHub fork link: https://github.com/ColorfulGoat/lecture5-dockerk8s-demo
 
