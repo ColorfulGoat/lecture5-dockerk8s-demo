@@ -3,13 +3,15 @@
 GitHub fork link: https://github.com/ColorfulGoat/lecture5-dockerk8s-demo
 
 # Solutions
+
 ## Exercise 1, a)
 ![Exercise 1, a)](images/Screenshot%202026-03-24%20204955.png)
 ![Exercise 1, a)](images/Screenshot%202026-03-24%20204908.png)
 
-
-
-
+## Exercise 2, b)
+### We need to make sure to include the build tools that Alpine needs. So I added the line
+>RUN apk add --no-cache gcc musl-dev libpq-dev && \
+>    pip install --no-cache-dir -r requirements.txt
 
 > DevOps for Cyber-Physical Systems | University of Bern
 
