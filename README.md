@@ -33,10 +33,22 @@ GitHub fork link: https://github.com/ColorfulGoat/lecture5-dockerk8s-demo
 
 >docker stats — shows resource usage for all running containers
 
+## Exercise 3, a)
+> I changed the part "image: merabro/lecture5-webapp:v1.0" and replaced merabro with jaygoat
+![Screenshot](images/Screenshot%202026-03-24%20214918.png)
+![Screenshot](images/Screenshot%202026-03-24%20215303.png)
+
+## Exercise 3, b)
+> Had to change the port on the python file "SERVICE_URL = "http://127.0.0.1:63501/info" to "56491"
+![Screenshot](images/Screenshot%202026-03-24%20220857.png)
+
+> Kubernetes distributes traffic across replicas using a Service. When you create a Service, it acts as a load balancer that routes traffic to the pods (replicas) associated with that Service.
+
+## Exercise 3, c)
+![Screenshot](images/Screenshot%202026-03-24%20221506.png)
 
 
-
-
+# END
 > DevOps for Cyber-Physical Systems | University of Bern
 
 A Task Manager app demonstrating Docker containerization and Kubernetes orchestration.
