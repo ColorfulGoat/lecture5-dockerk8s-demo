@@ -2,6 +2,8 @@
 
 GitHub fork link: https://github.com/ColorfulGoat/lecture5-dockerk8s-demo
 
+Docker Hub username: jaygoat
+
 # Solutions
 
 ## Exercise 1, a)
