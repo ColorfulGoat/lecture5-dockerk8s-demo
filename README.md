@@ -28,7 +28,9 @@ GitHub fork link: https://github.com/ColorfulGoat/lecture5-dockerk8s-demo
 
 ## Exercise 2, b)
 >docker compose logs web — shows all stdout/stderr logs from the web container
+
 >docker inspect lecture5-web — returns a detailed JSON file with the container's full configuration
+
 >docker stats — shows resource usage for all running containers
 
 
