@@ -14,7 +14,7 @@ GitHub fork link: https://github.com/ColorfulGoat/lecture5-dockerk8s-demo
 >    pip install --no-cache-dir -r requirements.txt
 
 ### The difference between the two images is quite noticable. This is because alpine needs the extra tools to run.
-![Exercise 1, a)](images/Screenshot&220026-03-24&202010303.png)
+![Screenshot](images/Screenshot%202026-03-24%20210303.png)
 
 
 
