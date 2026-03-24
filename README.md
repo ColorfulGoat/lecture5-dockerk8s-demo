@@ -4,6 +4,8 @@
 
 A Task Manager app demonstrating Docker containerization and Kubernetes orchestration.
 
+https://github.com/ColorfulGoat/lecture5-dockerk8s-demo
+
 ## Architecture
 
 **Docker Compose:**
