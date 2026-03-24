@@ -9,7 +9,7 @@
 # STEP 1: Start with official Python image
 # ----------------------------------------------------------
 # We use the slim variant for smaller size (~150MB vs ~900MB)
-FROM python:3.11-slim
+FROM python:3.11-alpine
 
 # STEP 2: Set the working directory
 # ----------------------------------------------------------
@@ -21,7 +21,8 @@ WORKDIR /app
 # Why separate? Docker layer caching!
 # If requirements.txt hasn't changed, this layer is cached
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN apk add --no-cache gcc musl-dev libpq-dev && \
+    pip install --no-cache-dir -r requirements.txt
 
 # STEP 4: Copy application code
 # ----------------------------------------------------------
